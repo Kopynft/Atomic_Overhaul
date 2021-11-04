@@ -26,7 +26,7 @@ data:extend({
 		},
 		subgroup = "intermediate-product",
 		order = "r[graphite-processing]-a[graphite-fuel-cell]",
-		fuel_category = "nuclear",
+		fuel_category = "graphite-fuel",
 		burnt_result = "graphite-depleted-cell",
 		fuel_value = "3GJ",
 		stack_size = 50

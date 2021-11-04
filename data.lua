@@ -2,12 +2,16 @@ local items = "prototypes.items."
 local recipes = "prototypes.recipes."
 local techs = "prototypes.technologies."
 local vanilla = "prototypes.vanilla-changes."
+local entities = "prototypes.entities."
 graphics = "__Atomic_Overhaul__/graphics/icons/"
 
 require("prototypes/group")
+require("prototypes/categories")
+require(entities .. "graphite-reactor")
 require(items .. "empty-fuel-cell")
 require(items .. "graphite-depleted-cell")
 require(items .. "graphite-fuel-cell")
+require(items .. "graphite-reactor")
 require(items .. "graphite")
 require(items .. "MOX-depleted-cell")
 require(items .. "MOX-fuel-cell")
